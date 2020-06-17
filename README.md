@@ -26,13 +26,13 @@ Add the dependency in your `pom.xml` file:
 <dependency>
     <groupId>com.github.open-fidias</groupId>
     <artifactId>env-paths</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 
 ## Usage
 
-All you need to do is create an instance of `Chance` and call the methods. Example:
+All you need to do is create an instance of `EnvPaths` and call the methods. Example:
 
 ```java
 EnvPaths paths = EnvPaths.newInstance("my-app");
@@ -52,7 +52,6 @@ paths.getConfig();
 ```
 
 The complete API can be found at <https://jitpack.io/com/github/open-fidias/env-paths/latest/javadoc/>.
-All methods are documented and have examples right in the javadoc.
 
 ## Contributing
 
