@@ -1,7 +1,5 @@
 # env-paths
 
-[![Javadocs](http://www.javadoc.io/badge/com.github.open-fidias/env-paths.svg)](http://www.javadoc.io/doc/com.github.open-fidias/env-paths)
-
 > Get paths for storing things like data, config, cache, etc.
 
 Uses the correct OS-specific paths. No dependencies.
@@ -28,7 +26,7 @@ Add the dependency in your `pom.xml` file:
 <dependency>
     <groupId>com.github.open-fidias</groupId>
     <artifactId>env-paths</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
@@ -53,7 +51,7 @@ paths.getConfig();
 //=> File('/home/fidias/.config/my-app')
 ```
 
-The complete API can be found at <http://www.javadoc.io/doc/com.github.open-fidias/env-paths>.
+The complete API can be found at <https://jitpack.io/com/github/open-fidias/env-paths/latest/javadoc/>.
 All methods are documented and have examples right in the javadoc.
 
 ## Contributing
