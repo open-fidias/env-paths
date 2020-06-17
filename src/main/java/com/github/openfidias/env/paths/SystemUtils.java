@@ -1722,7 +1722,11 @@ class SystemUtils {
      * @since 2.1
      */
     public static File getUserHome() {
-        return new File(System.getProperty(USER_HOME_KEY));
+        return new File(getUserHomePath());
+    }
+
+    public static String getUserHomePath() {
+        return System.getProperty(USER_HOME_KEY);
     }
 
     /**

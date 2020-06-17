@@ -30,7 +30,7 @@ import java.nio.file.Paths;
 class EnvPathsWindows {
 
     static EnvPaths newInstance(String name) {
-        String homedir = SystemUtils.getUserDirPath();
+        String homedir = SystemUtils.getUserHomePath();
         String appData = getAppData(homedir);
         String localAppData = getLocalAppData(homedir);
 

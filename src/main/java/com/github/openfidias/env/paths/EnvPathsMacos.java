@@ -30,7 +30,7 @@ import java.nio.file.Paths;
 class EnvPathsMacos {
 
     static EnvPaths newInstance(String name) {
-        String homedir = SystemUtils.getUserDirPath();
+        String homedir = SystemUtils.getUserHomePath();
         String library = Paths.get(homedir, "Library").toString();
 
         Path data = Paths.get(library, "Application Support", name);

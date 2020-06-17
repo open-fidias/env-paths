@@ -30,7 +30,7 @@ import java.nio.file.Paths;
 class EnvPathsLinux {
 
     static EnvPaths newInstance(final String name) {
-        String homedir = SystemUtils.getUserDirPath();
+        String homedir = SystemUtils.getUserHomePath();
         String username = SystemUtils.getUserName();
 
         Path data = Paths.get(getDataHome(homedir), name);
